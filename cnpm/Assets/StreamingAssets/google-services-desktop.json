@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "141465367787",
+    "project_id": "cityrunner-539c5",
+    "storage_bucket": "cityrunner-539c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141465367787:android:9ca62ccfe5a51c11ec3aae",
+        "android_client_info": {
+          "package_name": "com.house3d.cityrunner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141465367787-pr86ruifb3hjsbp7nr27a04pfvgo327d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZGXgZsxWysDCS5_3_o6-V92QnoqbUebE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "141465367787-pr86ruifb3hjsbp7nr27a04pfvgo327d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
