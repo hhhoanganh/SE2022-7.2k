@@ -78,13 +78,13 @@ Khi lựa chọn nhân vật, thanh các hero tại vị trí của nhân vật 
 ![ChooseCharacter](https://user-images.githubusercontent.com/104510473/207640908-6b2e8964-9d5a-47a1-b18a-cac507e08328.png)
 Noverboard: Xem số ván trượt đã sở hữu, số ván trượt chưa sở hữu và tất cả ván trượt xuất hiện trong game
 ![NoverBoard](https://user-images.githubusercontent.com/104510473/207640976-d13c82c4-210f-439e-987b-08fcdab745a8.png)
-Mỗi đối tượng đều có các thuộc tính sau:
+Mỗi đối tượng đều có các thuộc tính sau:![InforNoverbBoard](https://user-images.githubusercontent.com/104510473/207641110-6cb83abd-dcd8-4292-a1e7-aead052a9acb.png)
 -	Tên ván trượt
 -	Chiều dài ván
 -	ĐỘ rộng ván
 -	Trọng lượng ván trượt
 -	Price (Giá tiền, tính bằng xu) :  Cơ chế giống Hero
-![InforNoverbBoard](https://user-images.githubusercontent.com/104510473/207641110-6cb83abd-dcd8-4292-a1e7-aead052a9acb.png)
+
 
 3.	Shop: Cho phép mua chìa khóa, vật phẩm, quà tặng, cũng như nâng cấp các vật phẩm đặc biệt (Upgrades)
 Buy Items: Sử dụng tiền thật để mua key và coin, sử dụng coin để mua quà tặng đặc biệt 
