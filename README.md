@@ -7,18 +7,18 @@
 Trong màn hình chính của game chúng ta chia thành 4 vùng
 Vùng thứ nhất: Nhóm nút điều khiển và tiện ích
 Ở vùng này có các nút:
+![vung1](https://user-images.githubusercontent.com/104510473/207634326-887e1006-ce8a-4dca-b906-b29113a97312.png)
 
 
 
 
 
 
+1.![HoverBoard](https://user-images.githubusercontent.com/104510473/207635215-6856ce58-d64b-49f4-8999-e629bbffb73a.png)	Get HoverBoard: Khi ấn vào nút Get HoverBoard, một hộp thoại sẽ hiện ra cho phép người chơi nhận một HoverBoard miễn phí, khi thực hiện một yêu cầu bất kì của game ( Cụ thể ở đây là Click vào thanh đen ở ngay dưới )
+![GetHoverBoard](https://user-images.githubusercontent.com/104510473/207635227-94495017-dc4f-48cd-b043-1a5c1f12f55c.png)
 
-1.	Get HoverBoard: Khi ấn vào nút Get HoverBoard, một hộp thoại sẽ hiện ra cho phép người chơi nhận một HoverBoard miễn phí, khi thực hiện một yêu cầu bất kì của game ( Cụ thể ở đây là Click vào thanh đen ở ngay dưới )
 
-
-
-2.	Get Key: Khi click vào nút get Key, một hộp thoại sẽ hiện ra. Thực hiện nhiệm vụ nào đó (click vào thanh trạng thái bên dưới), chờ đợi nhiệm vụ, sau khi hoàn thành sẽ được nhận 1 key miễn phí
+2.![Key](https://user-images.githubusercontent.com/104510473/207638799-f5b51a84-76c3-449e-95ca-422257739326.png)	Get Key: Khi click vào nút get Key, một hộp thoại sẽ hiện ra. Thực hiện nhiệm vụ nào đó (click vào thanh trạng thái bên dưới), chờ đợi nhiệm vụ, sau khi hoàn thành sẽ được nhận 1 key miễn phí
 
 
 3.	Setting: Khi click vào nút này, một hộp tiện ích (menu trợ giúp) sẽ hiện ra.
