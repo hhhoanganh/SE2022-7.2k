@@ -2,8 +2,7 @@
 ![manhinhcho](https://user-images.githubusercontent.com/104510473/207633201-50c5400b-51bf-4fca-a1f6-ca21c31179e6.png)
 
 2.	Menu chính của game
-
-
+![menuchinh](https://user-images.githubusercontent.com/104510473/207633805-05acda0e-6508-4a2a-9eda-0e2da6823ce2.png)
 
 Trong màn hình chính của game chúng ta chia thành 4 vùng
 Vùng thứ nhất: Nhóm nút điều khiển và tiện ích
