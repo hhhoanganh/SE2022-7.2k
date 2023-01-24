@@ -21,7 +21,8 @@ Vùng thứ nhất: Nhóm nút điều khiển và tiện ích
 2.![Key](https://user-images.githubusercontent.com/104510473/207638799-f5b51a84-76c3-449e-95ca-422257739326.png)	Get Key: Khi click vào nút get Key, một hộp thoại sẽ hiện ra. Thực hiện nhiệm vụ nào đó (click vào thanh trạng thái bên dưới), chờ đợi nhiệm vụ, sau khi hoàn thành sẽ được nhận 1 key miễn phí
 ![GetKey](https://user-images.githubusercontent.com/104510473/207639125-78b454a4-af81-4c86-b4bc-bef2996c1b8c.png)
 
-3.	![Setting](https://user-images.githubusercontent.com/104510473/207639210-e638b23b-d448-4f20-8127-10b5ff9ef9bd.png)Setting: Khi click vào nút này, một hộp tiện ích (menu trợ giúp) sẽ hiện ra.
+3.	![Setting](https://user-images.githubusercontent.com/104510473/207639210-e638b23b-d448-4f20-8127-10b5ff9ef9bd.png)
+4.	Setting: Khi click vào nút này, một hộp tiện ích (menu trợ giúp) sẽ hiện ra.
 ![MenuSetting](https://user-images.githubusercontent.com/104510473/207639310-00cdefab-3c59-49f8-995c-ebaa062df64c.png)
 Trong hộp Setting có những lựa chọn sau
 -	Language: Cho phép lựa chọn 1 trong các ngôn ngữ:
@@ -122,3 +123,4 @@ Người chơi có thể gặp các vật phẩm đặc biệt nằm trên đư�
 Có 6 vật phẩm nhặt giữa đường chạy mà chúng ta có thể nâng cấp:
 ![Item](https://user-images.githubusercontent.com/104510473/207643381-58fb1a4e-1e35-4f67-ae80-ca84e377d9e8.png)
 Khi nhặt được các vật phẩm như trên
+II Chức năng các file code bên trong
