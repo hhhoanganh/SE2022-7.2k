@@ -124,3 +124,175 @@ Có 6 vật phẩm nhặt giữa đường chạy mà chúng ta có thể nâng 
 ![Item](https://user-images.githubusercontent.com/104510473/207643381-58fb1a4e-1e35-4f67-ae80-ca84e377d9e8.png)
 Khi nhặt được các vật phẩm như trên
 II Chức năng các file code bên trong
+1. Assets/resouceGame/Audios
+Toàn bộ hiệu ứng âm thanh trong game
+Heros
+Hiệu ứng âm thanh của từng nhân vật
+Police
+Âm thanh của cảnh sát
+Assets/resouceGame/Fonts
+Các font chữ được sử dụng
+Assets/resouceGame/Models
+Các mẫu vật thể, địa hình
+AllItems
+Các Item có trong game
+Characters 
+Nhân vật trong game
+Equips
+Các phương tiện như nam châm, tên lửa, ván trượt
+ItemsMission
+các vật phẩm tiểu tiết
+Terrains
+Môi trường mà nhân vật chạy qua
+Elements
+ vật cản trong game
+Environments
+các địa điểm mà nhân vật chạy qua 
+Assets/resouceGame/Particles
+Các chi tiết nhỏ của các hiệu ứng như ăn coin, tia lửa, ...
+Assets/resouceGame/Prefabs
+Lưu các thông tin của các file 3d
+Assets/resouceGame/Resouces
+Assets/resouceGame/Textures
+2.Assets/Scripts
+Generals
+Alllanguages
+Có 11 ngôn ngữ được cài đặt trong game
+hiện thông tin theo từng ngôn ngữ
+BonusRoadDown
+khởi động lại nhân vật và map "BonusRoadDown" và chạy trên map
+CallNotifications
+gọi đến số ngày không sử dụng
+ChangeLightFence
+đổi màu trên cột đèn tín hiệu "đèn tàu"
+CreatePoolTerrain
+tạo ra bối cảnh địa hình vật cản lúc chạy
+DestroyParticle
+DisableMe
+gọi vô hiệu hóa
+EffectUpScore
+FacebookController
+đăng nhập, lấy thông tin FB, và các tác vụ liên quan đến các thông tin game 
+GetCountryPlayer
+Lấy quốc tịch
+Gradient(Xem xét lại file này)
+InitilizePurchaserButton
+ListCharacterUse
+LoadController
+điều khiển chức năng vận hành trò chơi
+Modules
+Xử lý các chức năng trong lúc vận hành trò chơi
+điều khiển các item, map, bonusroad, các chế độ chạy 
+lấy thông tin, vận hành các chế độ chơi
+xử lý các vật phẩm nhận được trong lúc chơi
+NetworkManager
+xử lý chế độ chơi online
+PlayAudiOnEnable
+Mở, tắt âm thanh
+PlayParticle
+ProductButton
+các nút sản phẩm để mua
+Purchaser
+Kết nối cửa hàng(cửa hàng dành cho số tiền nạp)
+Recorder
+Trình ghi màn hình lúc chơi
+RotateParticleSpeed
+đặt lại tốc độ của góc quay
+RotateQuads
+RotateSkyBox
+RotateZModels
+RunEffectPanel
+RunEffectViewEnemy
+SaveLoadData
+Lưu thông tin về vàng, key, item, nhiệm vụ đã hoàn thành...
+SendViewEnemy
+gửi bức ảnh định dạng JPG tới đối thủ
+SendViewEnemyNew
+gửi bức ảnh định dạng JPG tới đối thủ(giống bản 1.0 và 2.0)
+TextLoading
+định dạng đoạn text cần để tải
+
+MainGame
+AutoDisableMe
+tự động vô hiệu hóa, khi gọi đến đưa active về false 
+AutoScaleUILabel
+xét tỉ lệ của nhãn UI
+BarrierController
+kiểm soát việc tạo vật cản
+BarrierInformation
+Thông tin về kiểu tấm chắn, loại tấm chắn, các kiểu ngã
+ButtonItemBuy
+các item trong lúc chơi
+ButtonStatus
+trạng thái nút trong lúc chơi( có thể ấn, không thể ấn)
+CameraController
+Xử lý góc máy soi nhân vật ở góc thích hợp cho trải nghiệm chơi
+ChallengeController
+chế độ thách đấu
+ChageHeightFog
+thay đổi độ cao phần mờ
+CheckActiveMain
+setup lại trạng thái active
+CheckUseSkis
+kiểm tra sử dụng ván trượt để show hoặc ẩn
+ColorBGWinLose
+hiện background (Thắng, thua) người chơi khi thua hoặc thắng
+CurvedControler
+xử lý góc cong
+EnemyController
+HeroController
+Kiểm soát, xử lý các hành vi, loại nhân vật, sử dụng các item
+HightItemsController
+xử lý lấy được các item trong lúc chơi
+ItemAddHero
+Thêm các item
+ItemInformation
+Xử lý các item  xuất hiện trong chơi, tỷ lệ xuất hiện ngẫu nhiên 
+MagnetController
+nam châm kết hợp cùng 1 số item khác
+MessageBonusFirst
+hiện box thông báo, tắt box thông báo khi hiện box
+MessageBuyKeys
+bảng mua key
+MessageFindOpponent
+tìm đối thủ chơi chung
+MessageInviteFB
+gửi lời mời tới bạn bè trên FB
+MessageListLanguage
+Hiện ra 1 box có chứa danh sách các ngôn ngữ
+MassageNetwork
+box kết nối internet, tạo chế độ chơi onl
+MessagePauseGame
+khi pause game box này hiện lên với 1 số chức năng
+MessageRate
+box đánh giá
+MessageResultOnline
+kết quả trực tuyến
+MessageRoom
+Phòng chơi
+MessageSaveMe
+xử lý hồi sinh
+MessageSetting
+bảng setting 
+MessageShareFB
+chia sẻ kết quả chơi lên FB
+MessageTimeCount
+MissionsController
+giao nhiệm vụ
+MoveToMagnet
+hút coin khi có nam châm
+PageMainGame
+xử lý chính trong vận hành game
+PanelShowUseItem
+hiện animation sử dụng item
+PlaySparksSkis
+tia lửa ở ván trượt
+SkisController
+kiểm soát các loại ván trượt
+TerrainController
+kiểm soát các địa hình trong lúc game vận hành
+TerrainInformation
+thông tin về các địa hình trước mặt
+UpdateCountTime
+
+OtherPage
