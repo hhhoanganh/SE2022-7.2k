@@ -127,27 +127,27 @@ II Chức năng các file code bên trong
 1. Assets/resouceGame/Audios
 - Toàn bộ hiệu ứng âm thanh trong game
 - Heros
-- Hiệu ứng âm thanh của từng nhân vật
+ Hiệu ứng âm thanh của từng nhân vật
 - Police
-- Âm thanh của cảnh sát
-Assets/resouceGame/Fonts
-Các font chữ được sử dụng
-Assets/resouceGame/Models
-Các mẫu vật thể, địa hình
-AllItems
-Các Item có trong game
-Characters 
-Nhân vật trong game
-Equips
-Các phương tiện như nam châm, tên lửa, ván trượt
-ItemsMission
-các vật phẩm tiểu tiết
-Terrains
-Môi trường mà nhân vật chạy qua
-Elements
+ Âm thanh của cảnh sát
+- Assets/resouceGame/Fonts
+ Các font chữ được sử dụng
+- Assets/resouceGame/Models
+ Các mẫu vật thể, địa hình
+- AllItems
+ Các Item có trong game
+- Characters 
+ Nhân vật trong game
+- Equips
+ Các phương tiện như nam châm, tên lửa, ván trượt
+- ItemsMission
+ các vật phẩm tiểu tiết
+- Terrains
+ Môi trường mà nhân vật chạy qua
+- Elements
  vật cản trong game
-Environments
-các địa điểm mà nhân vật chạy qua 
+- Environments
+ các địa điểm mà nhân vật chạy qua 
 Assets/resouceGame/Particles
 Các chi tiết nhỏ của các hiệu ứng như ăn coin, tia lửa, ...
 Assets/resouceGame/Prefabs
