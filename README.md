@@ -125,11 +125,11 @@ Có 6 vật phẩm nhặt giữa đường chạy mà chúng ta có thể nâng 
 Khi nhặt được các vật phẩm như trên
 II Chức năng các file code bên trong
 1. Assets/resouceGame/Audios
-Toàn bộ hiệu ứng âm thanh trong game
-Heros
-Hiệu ứng âm thanh của từng nhân vật
-Police
-Âm thanh của cảnh sát
+- Toàn bộ hiệu ứng âm thanh trong game
+- Heros
+- Hiệu ứng âm thanh của từng nhân vật
+- Police
+- Âm thanh của cảnh sát
 Assets/resouceGame/Fonts
 Các font chữ được sử dụng
 Assets/resouceGame/Models
