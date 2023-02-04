@@ -148,151 +148,151 @@ II Chức năng các file code bên trong
  vật cản trong game
 - Environments
  các địa điểm mà nhân vật chạy qua 
-Assets/resouceGame/Particles
+- Assets/resouceGame/Particles
 Các chi tiết nhỏ của các hiệu ứng như ăn coin, tia lửa, ...
-Assets/resouceGame/Prefabs
+- Assets/resouceGame/Prefabs
 Lưu các thông tin của các file 3d
-Assets/resouceGame/Resouces
-Assets/resouceGame/Textures
+- Assets/resouceGame/Resouces
+- Assets/resouceGame/Textures
 2.Assets/Scripts
-Generals
-Alllanguages
+- Generals
+- Alllanguages
 Có 11 ngôn ngữ được cài đặt trong game
 hiện thông tin theo từng ngôn ngữ
-BonusRoadDown
+- BonusRoadDown
 khởi động lại nhân vật và map "BonusRoadDown" và chạy trên map
-CallNotifications
+- CallNotifications
 gọi đến số ngày không sử dụng
-ChangeLightFence
+- ChangeLightFence
 đổi màu trên cột đèn tín hiệu "đèn tàu"
-CreatePoolTerrain
+- CreatePoolTerrain
 tạo ra bối cảnh địa hình vật cản lúc chạy
-DestroyParticle
-DisableMe
+- DestroyParticle
+- DisableMe
 gọi vô hiệu hóa
-EffectUpScore
-FacebookController
+- EffectUpScore
+- FacebookController
 đăng nhập, lấy thông tin FB, và các tác vụ liên quan đến các thông tin game 
-GetCountryPlayer
+- GetCountryPlayer
 Lấy quốc tịch
-Gradient(Xem xét lại file này)
-InitilizePurchaserButton
-ListCharacterUse
-LoadController
+- Gradient(Xem xét lại file này)
+- InitilizePurchaserButton
+- ListCharacterUse
+- LoadController
 điều khiển chức năng vận hành trò chơi
-Modules
+- Modules
 Xử lý các chức năng trong lúc vận hành trò chơi
 điều khiển các item, map, bonusroad, các chế độ chạy 
 lấy thông tin, vận hành các chế độ chơi
 xử lý các vật phẩm nhận được trong lúc chơi
-NetworkManager
+- NetworkManager
 xử lý chế độ chơi online
-PlayAudiOnEnable
+- PlayAudiOnEnable
 Mở, tắt âm thanh
-PlayParticle
-ProductButton
+- PlayParticle
+- ProductButton
 các nút sản phẩm để mua
-Purchaser
+- Purchaser
 Kết nối cửa hàng(cửa hàng dành cho số tiền nạp)
-Recorder
+- Recorder
 Trình ghi màn hình lúc chơi
-RotateParticleSpeed
+- RotateParticleSpeed
 đặt lại tốc độ của góc quay
-RotateQuads
-RotateSkyBox
-RotateZModels
-RunEffectPanel
-RunEffectViewEnemy
-SaveLoadData
+- RotateQuads
+- RotateSkyBox
+- RotateZModels
+- RunEffectPanel
+- RunEffectViewEnemy
+- SaveLoadData
 Lưu thông tin về vàng, key, item, nhiệm vụ đã hoàn thành...
-SendViewEnemy
+- SendViewEnemy
 gửi bức ảnh định dạng JPG tới đối thủ
-SendViewEnemyNew
+- SendViewEnemyNew
 gửi bức ảnh định dạng JPG tới đối thủ(giống bản 1.0 và 2.0)
-TextLoading
+- TextLoading
 định dạng đoạn text cần để tải
 
-MainGame
-AutoDisableMe
-tự động vô hiệu hóa, khi gọi đến đưa active về false 
-AutoScaleUILabel
+- MainGame
+- AutoDisableMe
+tự động vô hiệu hóa trò chơi, khi giá trị active trả về false 
+- AutoScaleUILabel
 xét tỉ lệ của nhãn UI
-BarrierController
+- BarrierController
 kiểm soát việc tạo vật cản
-BarrierInformation
+- BarrierInformation
 Thông tin về kiểu tấm chắn, loại tấm chắn, các kiểu ngã
-ButtonItemBuy
+- ButtonItemBuy
 các item trong lúc chơi
-ButtonStatus
+- ButtonStatus
 trạng thái nút trong lúc chơi( có thể ấn, không thể ấn)
-CameraController
+- CameraController
 Xử lý góc máy soi nhân vật ở góc thích hợp cho trải nghiệm chơi
-ChallengeController
+- ChallengeController
 chế độ thách đấu
-ChageHeightFog
+- ChageHeightFog
 thay đổi độ cao phần mờ
-CheckActiveMain
+- CheckActiveMain
 setup lại trạng thái active
-CheckUseSkis
+- CheckUseSkis
 kiểm tra sử dụng ván trượt để show hoặc ẩn
-ColorBGWinLose
+- ColorBGWinLose
 hiện background (Thắng, thua) người chơi khi thua hoặc thắng
-CurvedControler
+- CurvedControler
 xử lý góc cong
-EnemyController
-HeroController
+- EnemyController
+- HeroController
 Kiểm soát, xử lý các hành vi, loại nhân vật, sử dụng các item
-HightItemsController
+- HightItemsController
 xử lý lấy được các item trong lúc chơi
-ItemAddHero
+- ItemAddHero
 Thêm các item
-ItemInformation
+- ItemInformation
 Xử lý các item  xuất hiện trong chơi, tỷ lệ xuất hiện ngẫu nhiên 
-MagnetController
+- MagnetController
 nam châm kết hợp cùng 1 số item khác
-MessageBonusFirst
+- MessageBonusFirst
 hiện box thông báo, tắt box thông báo khi hiện box
-MessageBuyKeys
+- MessageBuyKeys
 bảng mua key
-MessageFindOpponent
+- MessageFindOpponent
 tìm đối thủ chơi chung
-MessageInviteFB
+- MessageInviteFB
 gửi lời mời tới bạn bè trên FB
-MessageListLanguage
+- MessageListLanguage
 Hiện ra 1 box có chứa danh sách các ngôn ngữ
-MassageNetwork
+- MassageNetwork
 box kết nối internet, tạo chế độ chơi onl
-MessagePauseGame
+- MessagePauseGame
 khi pause game box này hiện lên với 1 số chức năng
-MessageRate
+- MessageRate
 box đánh giá
-MessageResultOnline
+- MessageResultOnline
 kết quả trực tuyến
-MessageRoom
+- MessageRoom
 Phòng chơi
-MessageSaveMe
+- MessageSaveMe
 xử lý hồi sinh
-MessageSetting
+- MessageSetting
 bảng setting 
-MessageShareFB
+- MessageShareFB
 chia sẻ kết quả chơi lên FB
-MessageTimeCount
-MissionsController
+- MessageTimeCount
+- MissionsController
 giao nhiệm vụ
-MoveToMagnet
+- MoveToMagnet
 hút coin khi có nam châm
-PageMainGame
+- PageMainGame
 xử lý chính trong vận hành game
-PanelShowUseItem
+- PanelShowUseItem
 hiện animation sử dụng item
-PlaySparksSkis
+- PlaySparksSkis
 tia lửa ở ván trượt
-SkisController
+- SkisController
 kiểm soát các loại ván trượt
-TerrainController
+- TerrainController
 kiểm soát các địa hình trong lúc game vận hành
-TerrainInformation
+- TerrainInformation
 thông tin về các địa hình trước mặt
-UpdateCountTime
+- UpdateCountTime
 
-OtherPage
+- OtherPage
