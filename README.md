@@ -228,7 +228,7 @@ trạng thái nút trong lúc chơi( có thể ấn, không thể ấn)
 - CameraController
 Xử lý góc máy soi nhân vật ở góc thích hợp cho trải nghiệm chơi
 - ChallengeController
-chế độ thách đấu
+các thử thách
 - ChageHeightFog
 thay đổi độ cao phần mờ
 - CheckActiveMain
