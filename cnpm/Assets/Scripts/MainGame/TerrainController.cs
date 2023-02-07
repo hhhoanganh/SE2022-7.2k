@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class TerrainController : MonoBehaviour
 {
+    public static float speed;
     public int indexScenesNow = 0;
     public List<int> listIndexScenesNormal = new List<int>();
     public List<int> listIndexScenesBonus = new List<int>();
@@ -260,6 +261,7 @@ public class TerrainController : MonoBehaviour
         //float deltaTime = Time.deltaTime;
         //if (deltaTime > Time.fixedDeltaTime) deltaTime = Time.fixedDeltaTime;
         float speedNow = numEditSpeed * Modules.speedGame * Modules.speedAddMoreUse * Time.deltaTime;// deltaTime;
+        speed = runFront * speedNow;
         foreach (GameObject go in listShowTerrain)
             go.transform.Translate(Vector3.back * runFront * speedNow);
         bool checkRun = false;
