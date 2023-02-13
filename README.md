@@ -296,3 +296,4 @@ thông tin về các địa hình trước mặt
 - UpdateCountTime
 
 - OtherPage
+Thông tin các giao diện khác ngoài chế độ chơi trong game
