@@ -1,11 +1,11 @@
-﻿using System.Reflection;
-using System.Linq.Expressions;
+﻿
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 
-public class HeroController : MonoBehaviour {
+public class HeroController : MonoBehaviour
+{
 
     public string idHero = "001";//ma nhan biet loai nhan vat
     public string codeBody = "N01";//the loai body cua nhan vat nay
@@ -173,7 +173,6 @@ public class HeroController : MonoBehaviour {
                 Modules.HandleGameOver();
             }
         }
-        // Debug.Log(""+Modules.speedGame);
     }
 
     bool CheckAniRunBasic()
@@ -380,7 +379,7 @@ public class HeroController : MonoBehaviour {
     {
         if (Modules.statusGame != StatusGame.play) return;
         //if (!CheckGround()) return;
-        if (!doneBackHero || !doneMoveLeftRight) { if (checkMoreMove)addMoreMove = 1; return; }
+        if (!doneBackHero || !doneMoveLeftRight) { if (checkMoreMove) addMoreMove = 1; return; }
         if (numberLaneOld < 0)
             if (Modules.gameGuide == "YES" || Modules.useBonus || Modules.useJumper || Modules.useRocket || Modules.useCable) return;
         if (Modules.gameGuide == "YES" && Modules.stepGuide == 0)
@@ -409,7 +408,7 @@ public class HeroController : MonoBehaviour {
     {
         if (Modules.statusGame != StatusGame.play) return;
         //if (!CheckGround()) return;
-        if (!doneBackHero || !doneMoveLeftRight) { if (checkMoreMove)addMoreMove = 2; return; }
+        if (!doneBackHero || !doneMoveLeftRight) { if (checkMoreMove) addMoreMove = 2; return; }
         if (numberLaneOld > 0)
             if (Modules.gameGuide == "YES" || Modules.useBonus || Modules.useJumper || Modules.useRocket || Modules.useCable) return;
         if (Modules.gameGuide == "YES" && Modules.stepGuide == 1)
@@ -438,7 +437,7 @@ public class HeroController : MonoBehaviour {
     {
         if (Modules.statusGame != StatusGame.play) return;
         //if (!CheckGround()) return;
-        if (!doneBackHero || !doneJumpHero || !CheckAniAllowJump()) { if (checkMoreMove)addMoreMove = 3; return; }
+        if (!doneBackHero || !doneJumpHero || !CheckAniAllowJump()) { if (checkMoreMove) addMoreMove = 3; return; }
         if (Modules.gameGuide == "YES" && Modules.stepGuide == 2)
         {
             Modules.stepGuide++;
@@ -485,7 +484,7 @@ public class HeroController : MonoBehaviour {
     {
         if (Modules.statusGame != StatusGame.play) return;
         //if (!CheckGround()) return;
-        if (!doneBackHero || isDown || !CheckAniAllowDown()) { if (checkMoreMove)addMoreMove = 4; return; }
+        if (!doneBackHero || isDown || !CheckAniAllowDown()) { if (checkMoreMove) addMoreMove = 4; return; }
         if (Modules.gameGuide == "YES" && Modules.stepGuide == 3)
         {
             Modules.stepGuide++;
@@ -1041,17 +1040,17 @@ public class HeroController : MonoBehaviour {
         BarrierInformation barrier = collision.gameObject.GetComponent<BarrierInformation>();
         if (collision.contacts != null && collision.contacts.Length > 0)
         {
-        //     Vector3 pointColl = Vector3.zero;
-        //     for (int i = 0; i < collision.contacts.Length; i++)
-        //     {
-        //        pointColl = new Vector3(
-        //              pointColl.x + collision.contacts[i].point.x,
-        //              pointColl.y + collision.contacts[i].point.y,
-        //              pointColl.z + collision.contacts[i].point.z);
-        //        print(collision.contacts[i].point + ";");
-        //        if (i == collision.contacts.Length - 1) print("======="); 
-        //     }
-        //     pointColl /= collision.contacts.Length;
+            //Vector3 pointColl = Vector3.zero;
+            //for (int i = 0; i < collision.contacts.Length; i++)
+            //{
+            //    pointColl = new Vector3(
+            //          pointColl.x + collision.contacts[i].point.x,
+            //          pointColl.y + collision.contacts[i].point.y,
+            //          pointColl.z + collision.contacts[i].point.z);
+            //    print(collision.contacts[i].point + ";");
+            //    if (i == collision.contacts.Length - 1) print("======="); 
+            //}
+            //pointColl /= collision.contacts.Length;
             Vector3 pointColl = collision.contacts[collision.contacts.Length - 1].point;
             Vector3 direction = myCollider.transform.InverseTransformPoint(pointColl);//quy ve toa do tinh theo collider cua nhan vat voi tam o giua
             //voi chieu dai hien tai cua collider 1.2 va rong 0.3, cang gan gia tri 0 thi do kiem tra cang cao, be day cang lon
@@ -1100,17 +1099,9 @@ public class HeroController : MonoBehaviour {
                     typeCollider = TypeCollider.right;
             }
         }
-        //print(typeCollider);  
-        if (typeCollider == TypeCollider.bottom) { 
-            checkEnterExitCol = tempCol; /*if (barrier != null) print("bottom");*/ 
-               if (barrier != null && myCollider.transform.position.y < 8.5f){  
-                if (collision.transform.position.z < transform.position.z || (barrier != null && barrier.typeBarrier == TypeBarrier.neverFall && Mathf.Abs(collision.transform.position.x - oldPointBefore.x) < 1.5f)){                   
-                        transform.GetComponent<Rigidbody>().isKinematic = true;
-                        transform.Translate(Vector3.up * 0.1f * ( 0.1f /(Mathf.Tan(29f * Mathf.PI / 180f) * TerrainController.speed)) + Vector3.up * Modules.speedGame* 7f/30f);
-                        transform.GetComponent<Rigidbody>().isKinematic = false;
-                        // Modules.totalKey ++;
-                }    
-            }
+        //print(typeCollider);
+        if (typeCollider == TypeCollider.bottom) { checkEnterExitCol = tempCol; /*if (barrier != null) print("bottom");*/
+        
         }
         if (Modules.useJumper || Modules.useRocket || Modules.useCable) return;
         if (typeCollider == TypeCollider.bottom)//xu ly tiep dat
@@ -1546,7 +1537,6 @@ public class HeroController : MonoBehaviour {
         if (codeItem == TypeItems.coin)//neu la dong xu
         {
             Modules.coinPlayer++;
-            // Modules.totalKey++;
             Modules.textCoinPlay.text = Modules.coinPlayer.ToString();
         }
         else if (codeItem == TypeItems.key)//neu la key
@@ -2031,7 +2021,7 @@ public class HeroController : MonoBehaviour {
                 typeAniRun = TypeAniRun.runNormal;
         }
     }
-    
+
     void SetDownBonusRoad(int typeAni)
     {
         if (Modules.statusGame == StatusGame.bonusEffect) return;
